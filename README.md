@@ -38,3 +38,33 @@
 <body>
   <input type="text" placeholder="Enter your name">
 </body>
+//table pseudo class
+<style>
+      table tr td{
+        border: 1px solid black;
+      }
+      tr:nth-child(odd){
+        background: brown;
+      }
+    </style>
+</head>
+<body>
+  <table>
+  <tr>
+  <th>Name</th>
+  <th>Age</th>
+  </tr>
+  <tr>
+    <td>Towhid</td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td>towfique</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>Sumon</td>
+    <td>30</td>
+  </tr>
+  </table>
+</body>
